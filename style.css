@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: Gill Sans;
+}
+html,body{
+    height:100%;
+    width: 100%;
+    background: linear-gradient(180deg,#4b59b0 ,  rgb(0, 36, 154));
+
+}
+main{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left{
+    height: 74vh;
+    width: 28vw;
+    background-image: url(assets/poh.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.right{
+    height: 65vh;
+    width: 35vw;
+}
+.controls{
+    height: 10vh;
+    width: 100vw;
+}
+.song-title{
+    padding: 10px;
+    text-align: center;
+    font-size: 28px;
+}
+.all-song{
+    border-top:1px solid white;
+    padding: 0px 10px;
+}
+.song-card{
+    padding: 10px 14px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.song-card:hover{
+    opacity: 0.6;
+}
+.part1 img{
+    height: 65px;
+    margin-right: 20px;
+}
+.part1{
+    display: flex;
+    align-items: center;
+}
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.controls h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c25cbd7   ;
+    padding: 8px;
+    font-size: 22px;
+    border-radius: 50%;
+}
+.controls h3:active{
+    scale:0.9;
+}
